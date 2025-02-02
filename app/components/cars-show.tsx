@@ -29,7 +29,7 @@ export default function CarSwiper() {
   return (
  
     <div
-    style={{backgroundImage:"url(/assets/select-bg.png"}}
+    style={{backgroundImage:"url(/SwiftDrive/assets/select-bg.png"}}
     className=" carSwiper  flex-col gap-20  h-[100vh] mt-20 w-full flex justify-center items-center">
         <p className="text-6xl  text-center font-bold">PICK YOUR DREAM  <br />CAR TODAY</p>
         <Swiper
