@@ -11,7 +11,7 @@ import Main from "./components/main";
 export default function Home() {
   return (
     <div
-    style={{backgroundImage: `url("/assets/header-bg.png")`}}
+    style={{backgroundImage: `url("/SwiftDrive/assets/header-bg.png")`}}
     className="  h-[80vh] w-full sm:h-[100vh] ">
       <Header />
        <Main/>
