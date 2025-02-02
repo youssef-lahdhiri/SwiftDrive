@@ -13,7 +13,7 @@ const Home = () => {
         <>
         <div className="w-full h-[100vh] ">
            
-<div className=""><Header /> 
+<div className="!text-white bg-background font-bold"><Header /> 
    </div>
  <div className=" w-2/3 mx-auto"><Select /></div>
    <Maps />

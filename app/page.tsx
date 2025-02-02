@@ -1,6 +1,6 @@
 "use client"
 import Header from "./components/header";
-import Incline from "./components/incline-bg";
+import ClientComponent from "./components/inc";
 import Select from "./components/select-section";
 import ScrollButton from "./components/scroll-button";
 import CarTypes from "./components/car-types";
@@ -22,8 +22,8 @@ export default function Home() {
       }
       onMouseEnter={(e)=>{const doc=document.getElementById("overlay");
       doc?.classList.add("visible");
-      doc?.classList.remove("hidden")}}> <div id='overlay'  className=" hidden w-full h-full bg-black opacity-60  shadow-black shadow-xl  absolute text-white font-bold text-2xl top-0 text-center pt-5">Rent Now </div> <Select /></div>
-      <Incline />
+      doc?.classList.remove("hidden")}}> <div id='overlay'  className=" hidden w-full h-full bg-black opacity-60  shadow-black shadow-xl  absolute text-white font-bold text-2xl top-0 text-center pt-5"><a href="/map">Rent Now</a> </div> <Select /></div>
+      <ClientComponent />
       <ScrollButton />
       <CarTypes />
       <MbApp />

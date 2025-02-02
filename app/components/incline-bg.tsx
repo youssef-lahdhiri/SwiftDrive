@@ -4,6 +4,7 @@ import {motion} from "framer-motion";
 import Image from "next/image";
 import bg from "@/public/assets/header.png"
 const Incline = () => {
+  
    const isSmall=(typeof window!=undefined)?window.matchMedia("(max-width: 640px)").matches:null;
     const variants = isSmall?
         {  y:-300, opacity:1} :{ y:-400, opacity:1  }  
