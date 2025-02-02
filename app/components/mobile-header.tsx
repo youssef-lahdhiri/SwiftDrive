@@ -35,9 +35,9 @@ const MobileHeader = () => {
         <div>
        
             <div id="open" className=" text-white overflow-hidden  font-semibold absolute right-0 duration-500  h-0 top-20 z-[9]  w-full bg-background items-center justify-around  flex flex-col gap-2"> 
-                <p> <a href="/Swiftdrive">Home</a></p>
-                <p> <a href="/Swiftdrive/map">Cars</a></p>
-                <p> <a href="/Swiftdrive/map">Map</a></p>
+                <p> <a href="/SwiftDrive">Home</a></p>
+                <p> <a href="/SwiftDrive/map">Cars</a></p>
+                <p> <a href="/SwiftDrive/map">Map</a></p>
                 <p>Contact</p></div>
                
         </div>
