@@ -6,7 +6,7 @@
   scroll-behavior: smooth;
   --header-font: "Syncopate", sans-serif;
   --background:  #f5b754;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 /* @media (prefers-color-scheme: dark) {
