@@ -1,7 +1,12 @@
-[{"name":"test","imgUrl":"/assets/select-1.png"},
-{"name":"test","imgUrl":"/assets/select-2.png"},
-{"name":"test","imgUrl":"/assets/select-3.png"},
-{"name":"test","imgUrl":"/assets/select-4.png"},
-{"name":"test","imgUrl":"/assets/select-5.png"}
+[{"id":1,"details":{"price":149,"speed":200,"person":5,"type":"A"},"name":"BMW","imgUrl":"/assets/select-1.png"},
+{"id":2,"details":{"price":99,"speed":200,"person":5,"type":"A"},"name":"AUDI","imgUrl":"/assets/select-2.png"},
+{"id":3,"details":{"price":230,"speed":250,"person":5,"type":"A"},"name":"Lamborghini Urus","imgUrl":"/assets/select-3.png"},
+{"id":4,"details":{"price":99,"speed":200,"person":5,"type":"A"},"name":"Ferrari","imgUrl":"/assets/select-4.png"},
+{"id":5,"details":{"price":79,"speed":220,"person":5,"type":"A"},"name":"Rolls-Royce","imgUrl":"/assets/rolls-royce.png"},
+{"id":6,"details":{"price":89,"speed":240,"person":5,"type":"A"},"name":"Mercedes CLS 63 AMG","imgUrl":"/assets/mercedes.png"},
+{"id":7,"details":{"price":99,"speed":300,"person":2,"type":"A"},"name":"Bugatti","imgUrl":"/assets/bg.png"},
+{"id":8,"details":{"price":129,"speed":300,"person":2,"type":"A"},"name":"Porsche 911","imgUrl":"/assets/porsche.png"}
+
+
 
 ]

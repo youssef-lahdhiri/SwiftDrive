@@ -1,0 +1,29 @@
+ [
+  {"name":"choose a location","position":{"lat":0,"lng":0},"carsId":[]},
+    {
+      "name": "Parkplatz östlicher Mercksplatz",
+      "position": { "lat": 49.872624316181785, "lng": 8.663000556968273 },
+      "carsId":[1,2,3,5,4,6,7,8]
+    },
+    {
+      "name": "Q-Park Darmstadtium",
+      "position": { "lat": 49.87556115021658, "lng": 8.657971570755786 },
+      "carsId":[1,2,5,4]
+    },
+    {
+      "name": "Darmstadt Q-Park Schlossgarage Karolinenplatz",
+      "position": { "lat": 49.87524890940161, "lng": 8.65357829871957 },
+      "carsId":[1,5,4]
+    },
+
+    {
+      "name": "Darmstadt Parkhaus Bürgerparkviertel",
+      "position": { "lat": 49.886785823272724, "lng": 8.653699681776535 },
+      "carsId":[5,4]
+    },
+    {
+      "name": "Q-Park Luisencenter",
+      "position": { "lat": 49.87192420223659, "lng": 8.65121133171719 },
+      "carsId":[1,4]
+    }
+  ]

@@ -1,0 +1,15 @@
+.child{
+
+    width:100px !important;
+    border:1px solid #000;
+animation: scroll 1s infinite;
+}
+@keyframes scoll {
+    to{
+        transform: translateY(-100%);
+    }
+    
+}
+div :first-of-type{
+    max-width: 600px;
+}
