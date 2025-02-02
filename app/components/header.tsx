@@ -6,10 +6,10 @@ const Header = () => {
         <div className=" bg-transparent w-full  items-center  border     md:px-48 md:flex hidden  justify-between  h-16 ">
             <p className="text-cente font-extrabold pl-10 flex items-center justify-center"><BiCar /> RENTAL</p>
         <ul className=" font-semibold  hidden md:flex gap-4 justify-center">
-        <li className="hover:text-background text-bold"> <a href="/">Home</a></li>
-        <li className="hover:text-background"> <a href="/map">Rent</a></li>
-        <li className="hover:text-background"><a href="/map">Ride</a></li>
-        <li className="hover:text-background"><a href="">Contact</a></li>
+        <li className="hover:text-background text-bold"> <a href="/Swiftdrive">Home</a></li>
+        <li className="hover:text-background"> <a href="/Swiftdrive/map">Rent</a></li>
+        <li className="hover:text-background"><a href="/Swiftdrive/map">Ride</a></li>
+        <li className="hover:text-background"><a href="/Swiftdrive">Contact</a></li>
         </ul>
         
         {/* <button className="bg-background"><a href="">Get Started</a></button> */}

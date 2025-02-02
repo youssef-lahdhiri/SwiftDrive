@@ -2,7 +2,6 @@
 "use client"
 import {motion} from "framer-motion";
 import Image from "next/image";
-import bg from "@/public/assets/header.png"
 const Incline = () => {
   
    const isSmall=(typeof window!=undefined)?window.matchMedia("(max-width: 640px)").matches:null;
@@ -21,7 +20,7 @@ const Incline = () => {
             initial={{ y:0, opacity:0,  }}
             animate={variants}
             transition={{delay:1,duration:0.5}}
-            ><Image className="absolute z-[999] right-1/2 translate-x-1/2  top-[-10%] sm:top-[-50%]  " alt="hero bg" layout="auto"  src={bg}/>
+            ><Image className="absolute z-[999] right-1/2 translate-x-1/2  top-[-10%] sm:top-[-50%]  " alt="hero bg" layout="auto"  src="/SwiftDrive/assets/header.png"/>
             </motion.div>
             </div>
      );
