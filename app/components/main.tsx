@@ -11,7 +11,7 @@ const Main = () => {
         transition={{delay:0.2, duration:0.5}}
         >
 
-            <h1 className="font-bold text-7xl text-center mt-20"> 
+            <h1 className="font-bold text-3xl md:text-7xl text-center mt-20"> 
             PREMIUM CAR <br /> RENTAL
             </h1>
         </motion.div>
