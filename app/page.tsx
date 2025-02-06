@@ -22,7 +22,7 @@ export default function Home() {
       }
       onMouseEnter={(e)=>{const doc=document.getElementById("overlay");
       doc?.classList.add("visible");
-      doc?.classList.remove("hidden")}}> <div id='overlay'  className=" hidden w-full h-full bg-black opacity-60  shadow-black shadow-xl  absolute text-white font-bold text-2xl top-0 text-center pt-5"><a href="/SwiftDrive/map">Rent Now</a> </div> <Select /></div>
+      doc?.classList.remove("hidden")}}> <div id='overlay'  className=" hidden w-full h-full bg-black opacity-60  shadow-black shadow-xl  absolute text-white font-bold text-2xl top-0 text-center pt-5"><a className="w-full h-full" href="/SwiftDrive/map">Rent Now</a> </div> <Select /></div>
       <ClientComponent />
       <ScrollButton />
       <CarTypes />
