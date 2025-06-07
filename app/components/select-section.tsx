@@ -3,16 +3,24 @@ import places from "../data/places.json";
 import {motion} from "framer-motion";
 import { BiSearch } from "react-icons/bi";
 import useStore from "../store/store";
+import Router, { useRouter } from "next/navigation";
+import { clear } from "console";
 
 const Select = () => {
     const setDuration=useStore((state)=>state.setDuration)
-   
+    const route=useRouter();
     const handelClick=() => {
+        const url = window.location.href;
+        if (!url.includes("map")) {
+           
+            route.push("/map");
+            `   `
+        }
         const start = document.getElementById("start") as HTMLInputElement;
         const end = document.getElementById("end") as HTMLInputElement;
         console.log(new Date(start.value).getDate()-new Date(end.value).getDate())
       setDuration(new Date(start.value).getDate()-new Date(end.value).getDate())
-          document.getElementsByClassName("carSwiper")[0].scrollIntoView({behavior:"smooth"})
+       const myTm= setTimeout(()=> {document.getElementsByClassName("carSwiper")[0].scrollIntoView({behavior:"smooth"})}, 1000);
     }
     const setPlace = useStore((state) => state.setPlace);   
     const handelChange=(e:any)=>{

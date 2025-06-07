@@ -16,13 +16,8 @@ export default function Home() {
       <Header />
        <Main/>
       <div className=" w-2/3 md:w-1/2 mx-auto relative user-select-none" 
-      onMouseLeave={(e)=>{const doc=document.getElementById("overlay");
-        doc?.classList.remove("visible");
-        doc?.classList.add("hidden")}
-      }
-      onMouseEnter={(e)=>{const doc=document.getElementById("overlay");
-      doc?.classList.add("visible");
-      doc?.classList.remove("hidden")}}> <div id='overlay'  className=" hidden w-full h-full bg-black opacity-60  shadow-black shadow-xl  absolute text-white font-bold text-2xl top-0 text-center pt-5"><a className="w-full h-full" href="/SwiftDrive/map">Rent Now</a> </div> <Select /></div>
+     
+      > <div id='overlay'  className=" hidden w-full h-full bg-black opacity-60  shadow-black shadow-xl  absolute text-white font-bold text-2xl top-0 text-center pt-5"> </div> <Select /></div>
       <ClientComponent />
       <ScrollButton />
       <CarTypes />

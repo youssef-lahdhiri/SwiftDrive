@@ -1,5 +1,6 @@
 "use client";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Keyboard } from 'swiper/modules';
 import { Swiper as SwiperType } from "swiper";
 import "swiper/css";
 import Loader from "./loader";
@@ -17,7 +18,6 @@ export default function CarSwiper() {
     const car=useStore((state)=>state.car)
     const ref=useRef(null)
     const handelChange=(swiper:any)=>{
-        console.log(swiper.realIndex)
         setCar(cars[swiper.realIndex])
     }
     useEffect(()=>{
@@ -26,6 +26,7 @@ export default function CarSwiper() {
         setLoading(false)
       },2000)
     },[place])
+    
   return (
  
     <div
@@ -33,6 +34,9 @@ export default function CarSwiper() {
     className=" carSwiper  flex-col gap-20  h-[100vh] mt-20 w-full flex justify-center items-center">
         <p className="text-6xl  text-center font-bold">PICK YOUR DREAM  <br />CAR TODAY</p>
         <Swiper
+       
+        keyboard={{enabled:true,onlyInViewport:false}}
+        
       onSlideChange={(swiper)=>handelChange(swiper)}
       ref={ref}
         effect="coverflow"
@@ -49,7 +53,7 @@ export default function CarSwiper() {
           slideShadows: false,
         }}
         
-        modules={[EffectCoverflow]}
+        modules={[EffectCoverflow,Keyboard]}
         className="w-full    ">
         {cars.map((ca,idx) => (
           <SwiperSlide key={idx} className="w-full"> 
